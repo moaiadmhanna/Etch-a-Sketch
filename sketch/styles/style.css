@@ -1,0 +1,183 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1501349800519-48093d60bde0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+}
+.container{
+    display: flex;
+    border: 1px solid aqua;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 640px;
+    margin: auto;
+    background-color: white;
+    
+}
+.grid{
+    width: 16px;
+    height:16px;
+}
+#choose{
+    
+    width:100px;
+    height: 40px;
+    border-radius:10px;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 900;
+    outline: none;
+    cursor: pointer;
+    margin-left: 640px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: aqua;
+    border: 1px solid white;
+    font-size: 13px;
+    
+}
+#choose:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: aqua;
+}
+.countainer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#black{
+    background-color: black;
+    cursor: url("https://img.icons8.com/officexs/30/000000/rgb-circle-3.png"),auto;
+}
+#Red{
+background-color: red;
+cursor: url("https://img.icons8.com/officexs/30/000000/rgb-circle-3.png"),auto;
+}
+#green{
+    background-color: green;
+    cursor: url("https://img.icons8.com/officexs/30/000000/rgb-circle-3.png"),auto;
+    }
+#orange{
+background-color: orange;
+cursor: url("https://img.icons8.com/officexs/30/000000/rgb-circle-3.png"),auto;
+}
+#violet{
+    background-color:#35063e;
+    cursor: url("https://img.icons8.com/officexs/30/000000/rgb-circle-3.png"),auto;
+    }
+#blue{
+ background-color:#00035b;
+ cursor: url("https://img.icons8.com/officexs/30/000000/rgb-circle-3.png"),auto;
+}
+.choice{
+    width:50px;
+    height:50px;
+    outline: none;
+    cursor: pointer;
+
+}
+.choice:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: aqua;
+}
+.color{
+    border:1px solid white ;
+    display: flex;
+    border-radius: 40px;
+    width:100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aqua;
+    font-family: monospace;
+    font-size: 13px;
+
+
+    
+}
+#randomcolor{
+    width: 100px;
+    background-color: black;
+    color:aqua;
+    font-size: 13px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 13px;
+
+
+}
+#randomcolor:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: aqua;
+}
+#restart{
+    width: 100px;
+    background-color:black;
+    font-size: 13px;
+    margin-left: 10px;
+    border-radius: 30px;
+    color: aqua;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 13px;
+
+}
+#restart:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: aqua;
+}
+#white{
+    width: 50px;
+    background-color:black;
+    font-size: 13px;
+    margin-left: 10px;
+    border-radius: 30px;
+    color: aqua;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 13px;
+    cursor: url("https://img.icons8.com/officexs/30/000000/eraser.png"),auto;
+
+}
+#white:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: aqua;
+}
+h1{
+    margin-left:530px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: teal;
+    font-style: italic;
+}
+.choose-a-size{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+#para{
+    margin-bottom: 30px;
+    margin-left: 5px;
+    
+}
+@keyframes rgb{
+    33%{
+        border-color: red;
+    }
+    66%{
+        border-color: green;
+    }
+    99%{
+        border-color: darkblue;
+    }
+}
+
+
+
