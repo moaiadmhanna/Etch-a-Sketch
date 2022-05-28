@@ -1,7 +1,8 @@
 const container=document.getElementById("container");
 const btn=document.getElementById("chosse");
 let Choices=document.querySelectorAll(".choice");
-const para=document.getElementById("para")
+const para=document.getElementById("para");
+
 
 
 
@@ -81,6 +82,8 @@ const para=document.getElementById("para")
         return color;
     
     }
+
+    window.onload=Add();
         
     let mousePressed = false;
 
