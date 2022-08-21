@@ -69,6 +69,17 @@ const para=document.getElementById("para");
                 para.style.color="green";
             }
         }
+      else if(Size==="1"){
+            for(let i=0;i<614400;i++){
+                const content =document.createElement("div");
+                content.classList.add("grid");
+                container.appendChild(content);
+                content.style.width="8px"
+                content.style.height="8px";
+                para.innerHTML=(":WELL DONE NOW DRAW")
+                para.style.color="green";
+            }
+        }
         else{
             para.innerHTML=(":PLEASE REWRITE THE SIZE")
             para.style.color="Red";
